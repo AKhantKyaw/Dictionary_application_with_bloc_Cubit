@@ -98,6 +98,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             }
                           },
                           decoration: InputDecoration(
+                              hintText: "Email",
                               focusedBorder: const OutlineInputBorder(
                                   borderSide: BorderSide(color: Colors.black)),
                               border: OutlineInputBorder(
@@ -125,6 +126,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             }
                           },
                           decoration: InputDecoration(
+                              hintText: "Password",
                               suffixIcon: IconButton(
                                 icon: Icon(
                                   _obscureText

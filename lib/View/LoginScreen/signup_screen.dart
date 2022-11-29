@@ -93,6 +93,7 @@ class _SignInState extends State<SignIn> {
                             }
                           },
                           decoration: InputDecoration(
+                              hintText: "Name",
                               focusedBorder: const OutlineInputBorder(
                                   borderSide: BorderSide(color: Colors.black)),
                               border: OutlineInputBorder(
@@ -119,6 +120,7 @@ class _SignInState extends State<SignIn> {
                             }
                           },
                           decoration: InputDecoration(
+                              hintText: "Email",
                               focusedBorder: const OutlineInputBorder(
                                   borderSide: BorderSide(color: Colors.black)),
                               border: OutlineInputBorder(
@@ -146,6 +148,7 @@ class _SignInState extends State<SignIn> {
                             }
                           },
                           decoration: InputDecoration(
+                              hintText: "Password",
                               suffixIcon: IconButton(
                                 icon: Icon(
                                   _obscureText
